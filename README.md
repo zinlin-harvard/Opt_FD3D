@@ -1,3 +1,5 @@
+CREDITS: THE ENTIRETY OF THIS CODE IS DEVELOPED BY DR. wONSEOK SHIN, PHD (STANFORD).
+
 FD3D
 ====
 FD3D uses iterative methods to avoid the large memory requirement of direct methods.
