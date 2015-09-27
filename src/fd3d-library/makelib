@@ -1,0 +1,6 @@
+#! /bin/bash
+rm -rf libFD3D.a
+make clean
+make
+ar rcs libFD3D.a *.o
+make clean 

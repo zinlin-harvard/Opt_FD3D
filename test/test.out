@@ -1,0 +1,156 @@
+fd3d launched.
+input file: pointsrc_2d.h5
+	N = [60, 60, 1]
+
+time elapsed: 0.203381, time grid info construction: 0.203381
+time elapsed: 0.205901, time eps vector: 0.002520
+time elapsed: 0.206035, time mu vector: 0.000134
+time elapsed: 0.206961, time J vector: 0.000926
+time elapsed: 0.207922, time M vector: 0.000961
+Create matrix for E on primary grid with SC-PML, preconditioned by identity.
+The matrix is symmetric, continuity eq not added.
+time elapsed: 0.260130, time CE matrix: 0.052208
+time elapsed: 0.276578, time CH matrix: 0.016448
+time elapsed: 0.277092, time CG matrix: 0.000514
+time elapsed: 0.283866, time CGF matrix: 0.006774
+time elapsed: 0.343822, time b vector: 0.059956
+time elapsed: 0.344650, time A matrix: 0.000828
+	symmetry test: norm(A^T - A)/norm(A) = 0.000000e+00
+time elapsed: 0.892421, time zero x0 initialization: 0.547771
+Iterative solver starts.
+algorithm: BiCG for symmetric matrices
+	numiter: 0	relres: 1.000000e+00
+	numiter: 1	relres: 2.500041e-01
+	numiter: 2	relres: 1.666740e-01
+	numiter: 3	relres: 1.071527e-01
+	numiter: 4	relres: 9.037519e-02
+	numiter: 5	relres: 6.895652e-02
+	numiter: 6	relres: 6.192797e-02
+	numiter: 7	relres: 5.093217e-02
+	numiter: 8	relres: 4.709289e-02
+	numiter: 9	relres: 4.040545e-02
+	numiter: 10	relres: 3.799283e-02
+	numiter: 11	relres: 3.349732e-02
+	numiter: 12	relres: 3.184342e-02
+	numiter: 13	relres: 2.861414e-02
+	numiter: 14	relres: 2.741106e-02
+	numiter: 15	relres: 2.497917e-02
+	numiter: 16	relres: 2.406552e-02
+	numiter: 17	relres: 2.216820e-02
+	numiter: 18	relres: 2.145129e-02
+	numiter: 19	relres: 1.992978e-02
+	numiter: 20	relres: 1.935265e-02
+	numiter: 21	relres: 1.810540e-02
+	numiter: 22	relres: 1.763111e-02
+	numiter: 23	relres: 1.659015e-02
+	numiter: 24	relres: 1.619369e-02
+	numiter: 25	relres: 1.531179e-02
+	numiter: 26	relres: 1.497567e-02
+	numiter: 27	relres: 1.421900e-02
+	numiter: 28	relres: 1.393058e-02
+	numiter: 29	relres: 1.327427e-02
+	numiter: 30	relres: 1.302422e-02
+	numiter: 31	relres: 1.244958e-02
+	numiter: 32	relres: 1.223084e-02
+	numiter: 33	relres: 1.172355e-02
+	numiter: 34	relres: 1.153070e-02
+	numiter: 35	relres: 1.107961e-02
+	numiter: 36	relres: 1.090840e-02
+	numiter: 37	relres: 1.050470e-02
+	numiter: 38	relres: 1.035199e-02
+	numiter: 39	relres: 9.990500e-03
+	numiter: 40	relres: 9.866612e-03
+	numiter: 41	relres: 9.605777e-03
+	numiter: 42	relres: 9.743925e-03
+	numiter: 43	relres: 1.018997e-02
+	numiter: 44	relres: 1.171843e-02
+	numiter: 45	relres: 1.380549e-02
+	numiter: 46	relres: 1.554083e-02
+	numiter: 47	relres: 1.683354e-02
+	numiter: 48	relres: 1.755105e-02
+	numiter: 49	relres: 1.935945e-02
+	numiter: 50	relres: 2.221993e-02
+	numiter: 51	relres: 2.331096e-02
+	numiter: 52	relres: 2.325072e-02
+	numiter: 53	relres: 2.440114e-02
+	numiter: 54	relres: 2.740362e-02
+	numiter: 55	relres: 3.151044e-02
+	numiter: 56	relres: 3.472743e-02
+	numiter: 57	relres: 3.670582e-02
+	numiter: 58	relres: 3.942921e-02
+	numiter: 59	relres: 4.018440e-02
+	numiter: 60	relres: 8.105147e-02
+	numiter: 61	relres: 2.792316e-02
+	numiter: 62	relres: 5.345851e-02
+	numiter: 63	relres: 5.246521e-02
+	numiter: 64	relres: 4.260009e-02
+	numiter: 65	relres: 7.550130e-02
+	numiter: 66	relres: 6.873147e-02
+	numiter: 67	relres: 5.836880e-02
+	numiter: 68	relres: 8.402924e-02
+	numiter: 69	relres: 8.370680e-02
+	numiter: 70	relres: 9.889661e-02
+	numiter: 71	relres: 1.116977e-01
+	numiter: 72	relres: 1.535549e-01
+	numiter: 73	relres: 2.166707e-01
+	numiter: 74	relres: 3.944643e-01
+	numiter: 75	relres: 1.109663e+00
+	numiter: 76	relres: 1.503909e+00
+	numiter: 77	relres: 4.269083e-01
+	numiter: 78	relres: 2.964112e-01
+	numiter: 79	relres: 1.708324e-01
+	numiter: 80	relres: 1.393275e-01
+	numiter: 81	relres: 9.124161e-02
+	numiter: 82	relres: 8.732260e-02
+	numiter: 83	relres: 6.033083e-02
+	numiter: 84	relres: 5.404562e-02
+	numiter: 85	relres: 4.660806e-02
+	numiter: 86	relres: 4.112516e-02
+	numiter: 87	relres: 2.471200e-02
+	numiter: 88	relres: 2.450944e-02
+	numiter: 89	relres: 2.507778e-02
+	numiter: 90	relres: 2.213886e-02
+	numiter: 91	relres: 1.660678e-02
+	numiter: 92	relres: 1.201960e-02
+	numiter: 93	relres: 8.658097e-03
+	numiter: 94	relres: 6.537291e-03
+	numiter: 95	relres: 4.599792e-03
+	numiter: 96	relres: 4.349173e-03
+	numiter: 97	relres: 4.580377e-03
+	numiter: 98	relres: 3.554309e-03
+	numiter: 99	relres: 2.072429e-03
+	numiter: 100	relres: 1.551627e-03
+	numiter: 101	relres: 1.582369e-03
+	numiter: 102	relres: 1.170492e-03
+	numiter: 103	relres: 9.841047e-04
+	numiter: 104	relres: 8.954836e-04
+	numiter: 105	relres: 7.358795e-04
+	numiter: 106	relres: 5.956470e-04
+	numiter: 107	relres: 5.033518e-04
+	numiter: 108	relres: 3.672078e-04
+	numiter: 109	relres: 4.231584e-04
+	numiter: 110	relres: 2.804355e-04
+	numiter: 111	relres: 3.601992e-04
+	numiter: 112	relres: 2.226047e-04
+	numiter: 113	relres: 1.609335e-04
+	numiter: 114	relres: 1.141403e-04
+	numiter: 115	relres: 6.165470e-05
+	numiter: 116	relres: 4.897818e-05
+	numiter: 117	relres: 2.919864e-05
+	numiter: 118	relres: 3.195245e-05
+	numiter: 119	relres: 1.871042e-05
+	numiter: 120	relres: 1.642045e-05
+	numiter: 121	relres: 1.168654e-05
+	numiter: 122	relres: 1.074867e-05
+	numiter: 123	relres: 7.506089e-06
+	numiter: 124	relres: 4.953228e-06
+	numiter: 125	relres: 3.341071e-06
+	numiter: 126	relres: 2.318949e-06
+	numiter: 127	relres: 1.621800e-06
+	numiter: 128	relres: 1.315928e-06
+	numiter: 129	relres: 9.579121e-07
+iteration took 32.170034
+Iterative solver finished.
+	true relres: 9.579121e-07
+time elapsed: 33.204096, time iterative solver: 32.311675
+fd3d finished.
