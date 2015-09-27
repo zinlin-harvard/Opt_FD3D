@@ -1,6 +1,6 @@
 all: gridinfo.o  h5.o  logging.o  mat.o  output.o  solver.o  vec.o
 
-export PETSC_DIR=${HOME}/MyLocal/petsc-3.6.0
+export PETSC_DIR=${HOME}/share/MyLocal/petsc-3.6.0
 export PETSC_ARCH=arch-fd3d
 
 include ${PETSC_DIR}/lib/petsc/conf/variables
