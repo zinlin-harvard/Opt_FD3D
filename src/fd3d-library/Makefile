@@ -21,3 +21,5 @@ solver: solver.o
 	$(CLINKER) -Wall -g -o $@ solver.o
 vec: vec.o
 	$(CLINKER) -Wall -g -o $@ vec.o
+test: test.o
+	$(CLINKER) -Wall -g -o $@ test.o
