@@ -1,6 +1,6 @@
 all: fd3dexec
 
-export PETSC_DIR=/home/zlin/MyLocal/petsc-3.6.0
+export PETSC_DIR=${HOME}/share/MyLocal/petsc-3.6.0
 export PETSC_ARCH=arch-fd3d
 export FD3D_PATH=../fd3d-library
 
